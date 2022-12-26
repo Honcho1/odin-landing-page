@@ -67,13 +67,14 @@ img {
   font-size: 18px;
 }
 
-button {
+.btn {
   background: #3882f6;
   color: #f9faf8;
   font-size: 18px;
   font-weight: 600;
   border-radius: 12px;
-  padding: 8px 20px;
+  padding: 8px 30px;
+  border: 0;
 }
 
 /* This is styling for the random information section */
@@ -132,4 +133,35 @@ button {
   font-style: normal;
   text-align: right;
   margin-top: 6px;
+}
+
+/* This is the styling for the call to action section */
+.call-to-action {
+  background: #f9faf8;
+  padding: 100px 120px;
+}
+
+.call-to-action-container {
+  border-radius: 12px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 60px 100px;
+  background-color: #3882f6;
+}
+
+.call-to-action-heading {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.call-to-action-subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.call-to-action-btn {
+  border: 2px solid #f9faf8;
 }
