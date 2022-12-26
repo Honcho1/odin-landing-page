@@ -75,3 +75,41 @@ button {
   border-radius: 12px;
   padding: 8px 20px;
 }
+
+/* This is styling for the random information section */
+.random-information {
+  background: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  padding: 0 170px 80px;
+}
+
+.random-information-heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  background-color: #f9faf8;
+  width: 170px;
+  height: 170px;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+}
+
+.random-information-paragraph {
+  width: 170px;
+  font-size: 18px;
+  color: #4d4b4b;
+  text-align: center;
+}
