@@ -165,3 +165,17 @@ img {
 .call-to-action-btn {
   border: 2px solid #f9faf8;
 }
+
+/* This is the styling for the footer */
+.footer {
+  background: #1f2937;
+  padding: 50px 0;
+  color: #f9faf8;
+  font-size: 18px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #f9faf8;
+  font-size: 18px;
+}
