@@ -113,3 +113,23 @@ button {
   color: #4d4b4b;
   text-align: center;
 }
+
+/* This is styling for the quote section */
+.quote {
+  background: #e5e7eb;
+  padding: 120px 200px 80px;
+}
+
+.paragraph-quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quote-author {
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  text-align: right;
+  margin-top: 6px;
+}
