@@ -149,8 +149,9 @@ img {
 
 .call-to-action-container {
   border-radius: 12px;
-  /* display: flex; */
-  /* flex-direction: column; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
   padding: 60px 100px;
   background-color: #3882f6;
 }
@@ -164,8 +165,7 @@ img {
 .call-to-action-subtext {
   color: #e5e7eb;
   font-size: 18px;
-  display: flex;
-  justify-content: space-between;
+  width: 500px;
 }
 
 .call-to-action-btn {

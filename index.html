@@ -11,7 +11,7 @@
   </head>
   <body>
     <!-- This is the header section -->
-    <section class="header">
+    <section class="header" id="home">
       <!-- This is the navbar on top that contains the logo and the links -->
       <div class="navbar">
         <!-- This is the header logo -->
@@ -19,9 +19,9 @@
         <!-- These are the links -->
         <div class="header-links">
           <ul>
-            <li class="nav-links"><a href="">Home</a></li>
-            <li class="nav-links"><a href="">About</a></li>
-            <li class="nav-links"><a href="">Contact</a></li>
+            <li class="nav-links"><a href="#home">Home</a></li>
+            <li class="nav-links"><a href="#about">About</a></li>
+            <li class="nav-links"><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -56,7 +56,7 @@
     </section>
 
     <!-- Random Information section -->
-    <section class="random-information">
+    <section class="random-information" id="about">
       <div class="random-information-heading">The Artful Journey</div>
       <!-- This container contains all the boxes and texts -->
       <div class="container">
@@ -127,13 +127,17 @@
     </section>
 
     <!-- This is the call to action section -->
-    <section class="call-to-action">
+    <section class="call-to-action" id="contact">
       <div class="call-to-action-container">
-        <div class="call-to-action-heading">Call to action! It's time!</div>
+        <div class="call-to-action-text-container">
+          <div class="call-to-action-heading">Call to action! It's time!</div>
 
-        <div class="call-to-action-subtext">
-          Sign up for our product by clicking that button right over there!
-
+          <div class="call-to-action-subtext">
+            We would like you to become a part of us. Join us by clicking that
+            button there!
+          </div>
+        </div>
+        <div class="call-to-action-btn-container">
           <button class="btn call-to-action-btn">Sign up</button>
         </div>
       </div>
