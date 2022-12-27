@@ -14,7 +14,7 @@ body {
   background: #1f2937;
   display: flex;
   flex-direction: column;
-  padding: 8px 120px 80px;
+  padding: 8px 120px 100px;
 }
 .header-logo {
   color: #f9faf8;
@@ -86,7 +86,7 @@ img {
   background: #f9faf8;
   display: flex;
   flex-direction: column;
-  padding: 0 170px 80px;
+  padding: 0 170px 100px;
 }
 
 .random-information-heading {
@@ -124,7 +124,7 @@ img {
 /* This is styling for the quote section */
 .quote {
   background: #e5e7eb;
-  padding: 120px 200px 80px;
+  padding: 120px 200px 100px;
 }
 
 .paragraph-quote {
